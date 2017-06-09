@@ -4,8 +4,8 @@ const Video = ({videoId}) => {
   const url = `https://www.youtube.com/embed/${videoId}`;
 
   return (
-    <div>
-      {url}
+    <div className='video'>
+      <iframe className='embed-video' src={url}></iframe>
     </div>
   )
 }

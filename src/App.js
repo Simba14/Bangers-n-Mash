@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Header from './components/header';
 import VideoList from './components/video_list';
+import Video from './components/video';
 
 class App extends Component {
   render() {
@@ -11,6 +12,7 @@ class App extends Component {
           <Header>Boiler Room Picks</Header>
         </div>
         <div className='main-body'>
+          <Video videoId='FSBB9uTfqp8' />
           <VideoList />
         </div>
       </div>

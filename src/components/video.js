@@ -1,7 +1,13 @@
 import React, { Component } from 'react'
 
-class Video extends Component {
+const Video = ({videoId}) => {
+  const url = `https://www.youtube.com/embed/${videoId}`;
 
+  return (
+    <div>
+      {url}
+    </div>
+  )
 }
 
 export default Video;

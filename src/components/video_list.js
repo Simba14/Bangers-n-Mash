@@ -12,7 +12,7 @@ const VideoList = (props) => {
 
   return (
     <ul className='video-list'>
-      List
+      {videoItems}
     </ul>
   )
 }

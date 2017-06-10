@@ -7,18 +7,21 @@ import API_KEY from './private/api_key'
 
 
 class App extends Component {
+
   constructor(props) {
     super(props);
-
-    this.state = {
-      videoIds: ['FSBB9uTfqp8'],
-      videos: 'p'
-    };
+    this.state = { videos: [] };
+    this.videoIDS = ['FSBB9uTfqp8', 'p6ozF0Y-PzU', '2OPdiH6OYag']
   }
 
   componentWillMount() {
+    this.videosData = ['a'];
     axios.get(`https://www.googleapis.com/youtube/v3/videos?part=snippet,contentDetails&id=FSBB9uTfqp8&key=${API_KEY}`)
-      .then(response => this.setState({ videos: response.data.items }));
+      .then(response => {
+        // let tempObj = response.data.items;
+        // this.videosData.push( tempObj );
+        this.setState({ videos: response.data.items });
+      });
   }
 
   render() {
@@ -28,10 +31,9 @@ class App extends Component {
           <img src="BR_Logo.jpg" className="App-logo" alt="logo" />
           <Header>Boiler Room Picks</Header>
         </div>
-        <div className='main-body'>
+        <div className='App-body'>
           <Video videoId='FSBB9uTfqp8' />
-          <VideoList />
-          {console.log(this.state.videos)}
+          <VideoList videos={this.state.videos}/>
         </div>
       </div>
     );

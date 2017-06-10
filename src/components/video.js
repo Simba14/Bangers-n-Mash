@@ -1,8 +1,9 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import Loader from 'halogen/ScaleLoader';
 
 const Video = ({video}) => {
   if (!video) {
-    return <div>Loading...</div>;
+    return <Loader color='#26A65B' size='16px' />;
   }
 
   const videoId = video.id.videoId;

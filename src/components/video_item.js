@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Loader from 'halogen/ScaleLoader';
 
-const Video = ({video}) => {
+const VideoItem = ({video}) => {
   if (!video) {
     return <Loader color='#26A65B' size='16px' />;
   }
@@ -20,4 +20,4 @@ const Video = ({video}) => {
   )
 }
 
-export default Video;
+export default VideoItem;

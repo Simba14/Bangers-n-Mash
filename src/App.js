@@ -32,7 +32,7 @@ class App extends Component {
           <Header>Boiler Room Picks</Header>
         </div>
         <div className='App-body'>
-          <Video videoId='FSBB9uTfqp8' />
+          <Video video={this.state.videos[0]} />
           <VideoList videos={this.state.videos}/>
         </div>
       </div>

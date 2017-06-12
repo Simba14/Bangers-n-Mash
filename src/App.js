@@ -35,14 +35,14 @@ class App extends Component {
           <div className='video-list'>
             <VideoList
               onVideoSelect={selectedVideo => this.setState({selectedVideo})}
-              videos={this.state.videos}>
+              videos={this.state.videos.slice(0, 3)}>
               I Was In The Crowd
             </VideoList>
           </div>
           <div className='video-list'>
             <VideoList
               onVideoSelect={selectedVideo => this.setState({selectedVideo})}
-              videos={this.state.videos}>
+              videos={this.state.videos.slice(3, 7)}>
               All Time Favourites
             </VideoList>
           </div>

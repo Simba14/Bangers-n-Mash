@@ -1,1 +1,49 @@
-To be completed
+Bangers 'n Mash
+==========
+
+A ReactJS application that collates my favourite DJ sets.  
+I have categorized the sets into two lists:
+1. The best I have seen live.
+2. All time favourite Boiler Room sets.
+
+A set can be viewed by clicking on the video thumbnail within the list.
+
+Interact with the application [here](https://bangers-n-mash.herokuapp.com/). Big tunes await!
+
+![alt text](http://i.imgur.com/VzdWloH.jpg)
+
+
+## Technologies Used
+- ReactJS
+- Node.js
+
+In order to access the required data for the videos, I firstly analysed the YouTube API Data call for each set. I then extracted the relevant properties into my own JSON object, which I stored online via http://myjson.com/. This generated a URI, so that the JSON could be accessed directly.
+
+I then make an API call to this URI, which allows me to use the data of the YouTube videos in my application.
+
+## Installation
+
+If you wish to run this application locally, follow the steps below:  
+
+**1. Install node (if you haven't already)**
+```
+$ brew install node
+```
+**2. Clone the repo and install npm**
+```
+$ git clone https://github.com/Simba14/Bangers-n-Mash.git
+$ cd Bangers-n-Mash
+$ npm install
+```
+**3. Set up the local host**
+```
+$ npm start
+```
+
+**4. Run application in browser**
+  - Navigate to `http://localhost:3000/` and start interacting with the app.
+
+## Things To Improve On
+- Allow users to add their own sets
+- Include tracklist for each set.
+- TDD

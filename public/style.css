@@ -40,12 +40,18 @@ h1 {
   font-weight: bold;
 }
 
+.video-list {
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
 .list-heading {
-  background-color: #3b8788;
+  background-color: #142e3e;
   text-align: center;
   font-size: 100%;
   margin-bottom: 2px;
   padding: 10px;
+  color: white;
 }
 
 .list-items {
@@ -60,6 +66,10 @@ h1 {
 
 .list-items:hover {
   background-color: #eee;
+}
+
+.thumbnail {
+  max-width: 100%;
 }
 
 footer {

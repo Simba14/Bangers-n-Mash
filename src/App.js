@@ -15,7 +15,7 @@ class App extends Component {
   }
 
   componentWillMount() {
-    axios.get(`https://api.myjson.com/bins/1972vv`)
+    axios.get(`https://api.myjson.com/bins/dtr0r`)
       .then(response => this.setState({
         videos: response.data,
         selectedVideo: response.data[0]

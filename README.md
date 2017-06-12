@@ -4,7 +4,7 @@ Bangers 'n Mash
 A ReactJS application that collates my favourite DJ sets.  
 I have categorized the sets into two lists:
 1. The best I have seen live.
-2. All time favourite Boiler Room sets.
+2. All time favourite [Boiler Room](https://boilerroom.tv/) sets.
 
 A set can be viewed by clicking on the video thumbnail within the list.
 

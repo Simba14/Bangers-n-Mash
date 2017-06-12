@@ -24,12 +24,14 @@ class App extends Component {
 
   render() {
     return (
-      <div className="App">
-        <div className="App-header">
-          <img src="BR_Logo.jpg" className="App-logo" alt="logo" />
-          <Header>Boiler Room Picks</Header>
+      <div className='app'>
+        <div className='app-header'>
+          <a href='https://boilerroom.tv/'>
+          <img src={require('./assets/br_logo.png')} className='app-logo' />
+          </a>
+          <Header className='header'>Boiler Room Picks</Header>
         </div>
-        <div className='App-body'>
+        <div className='app-body'>
           <VideoItem video={this.state.selectedVideo} />
           <VideoList
             onVideoSelect={selectedVideo => this.setState({selectedVideo})}

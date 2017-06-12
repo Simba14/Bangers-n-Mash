@@ -1,0 +1,32 @@
+body {
+  background-color: #01161E;
+  color: white;
+  font-family: 'bahiana', cursive;
+  min-height: 100%;
+  margin: 0px;
+}
+
+h1 {
+  font-family: 'Audiowide', cursive;
+  font-size: 400%;
+  color: white;
+  margin-top: 0px;
+  margin-bottom: 40px;
+  text-align: center;
+  background: url(./glitch.png);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+.app-header {
+  margin: 1%;
+}
+
+.app-logo {
+  height: 50px;
+  margin: 1%;
+}
+
+.app-body {
+
+}

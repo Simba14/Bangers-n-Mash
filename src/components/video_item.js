@@ -6,7 +6,6 @@ const VideoItem = ({video}) => {
     return <Loader color='#26A65B' size='16px' />;
   }
 
-  console.log(video);
   const videoId = video.id;
   const url = `https://www.youtube.com/embed/${videoId}`;
 

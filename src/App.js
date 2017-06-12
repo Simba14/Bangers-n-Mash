@@ -8,7 +8,10 @@ class App extends Component {
 
   constructor(props) {
     super(props);
-    this.state = { videos: [] };
+    this.state = {
+      videos: [],
+      selectedVIdeo: null
+    };
   }
 
   componentWillMount() {
@@ -24,8 +27,10 @@ class App extends Component {
           <Header>Boiler Room Picks</Header>
         </div>
         <div className='App-body'>
-          <VideoItem video={this.state.videos[0]} />
-          <VideoList videos={this.state.videos}/>
+          <VideoItem video={this.state.selectedVideo} />
+          <VideoList
+            onVideoSelect={selectedVideo => this.setState({selectedVideo})}
+            videos={this.state.videos}/>
         </div>
       </div>
     );

@@ -10,10 +10,12 @@ const VideoItem = ({video}) => {
   const url = `https://www.youtube.com/embed/${videoId}`;
 
   return (
-    <div className='video'>
-      <iframe className='embed-video' src={url}></iframe>
+    <div className='col-md-6 video'>
+      <div className='embed-responsive embed-responsive-16by9'>
+        <iframe className='embed-responsive' src={url}></iframe>
+      </div>
       <div className='video-info'>
-        <div>{video.title}</div>
+        <div className='video-title'>{video.title}</div>
         <div>{video.publishedAt}</div>
         <div>{video.description}</div>
       </div>

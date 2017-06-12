@@ -4,7 +4,7 @@ const VideoListItem = ({video, onVideoSelect}) => {
   const thumbnailURL = video.default.url;
 
   return (
-    <li onClick={() => onVideoSelect(video)} className='list-group-item'>
+    <li onClick={() => onVideoSelect(video)} className='list-items'>
       <div className='set-list-details'>
         <div className='details-left'>
           <img className='thumbnail' src={thumbnailURL} />

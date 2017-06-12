@@ -12,7 +12,8 @@ const VideoList = ({videos, onVideoSelect}) => {
   });
 
   return (
-    <ul className='video-list'>
+    <ul className='col-md-3 video-list'>
+      <h4 className='list-heading'>Best Ive Been Too</h4>
       {videoItems}
     </ul>
   )

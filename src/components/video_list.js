@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import VideoListItem from './video_list_item';
 
-const VideoList = ({videos, onVideoSelect}) => {
+const VideoList = ({videos, onVideoSelect, children}) => {
   const videoItems = videos.map((video) => {
     return (
       <VideoListItem
@@ -13,7 +13,7 @@ const VideoList = ({videos, onVideoSelect}) => {
 
   return (
     <ul className='col-md-3 video-list'>
-      <h4 className='list-heading'>Best Ive Been Too</h4>
+      <h4 className='list-heading'>{children}</h4>
       {videoItems}
     </ul>
   )

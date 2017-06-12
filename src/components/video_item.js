@@ -3,7 +3,7 @@ import Loader from 'halogen/ScaleLoader';
 
 const VideoItem = ({video}) => {
   if (!video) {
-    return <Loader color='#26A65B' size='16px' />;
+    return <Loader className='col-md-6 loading-image' color='#26A65B' size='16px' />;
   }
 
   const videoId = video.id;

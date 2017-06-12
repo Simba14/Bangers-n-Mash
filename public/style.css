@@ -29,6 +29,10 @@ h1 {
   text-align: center;
 }
 
+.loading-image {
+  text-align: center;
+}
+
 .video-info {
   margin-top: 10px;
   padding: 10px;

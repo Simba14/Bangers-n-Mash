@@ -6,11 +6,12 @@ I have categorized the sets into two lists:
 1. The best I have seen live.
 2. All time favourite [Boiler Room](https://boilerroom.tv/) sets.
 
-A set can be viewed by clicking on the video thumbnail within the list.
+A set can be watched by clicking on the video thumbnail, which will load it into the main view.
+The tracklist for each set has been collated and is included in the set description below the video.
 
 Interact with the application [here](https://bangers-n-mash.herokuapp.com/). Big tunes await!
 
-![alt text](http://i.imgur.com/VzdWloH.jpg)
+![alt text](http://i.imgur.com/FAlqR9u.jpg)
 
 
 ## Technologies Used
@@ -45,5 +46,4 @@ $ npm start
 
 ## Things To Improve On
 - Allow users to add their own sets
-- Include tracklist for each set.
 - TDD

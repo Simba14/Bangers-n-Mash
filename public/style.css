@@ -45,6 +45,17 @@ h1 {
   line-height: 25px;
 }
 
+.tracklist-heading {
+  color: #4c0306;
+}
+
+.video-tracklist {
+  white-space: pre-wrap;
+  font-size:  small;
+  color: #074c67;
+  line-height: 25px;
+}
+
 .video-title {
   font-size: large;
   font-weight: bold;

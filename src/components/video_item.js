@@ -18,6 +18,8 @@ const VideoItem = ({video}) => {
         <div className='video-title'>{video.title}</div>
         <div>{video.publishedAt}</div>
         <div className='video-description'>{video.description}</div>
+        <strong className='tracklist-heading'>Tracklist:</strong>
+        <div className='video-tracklist'>{video.tracklist}</div>
       </div>
     </div>
   )

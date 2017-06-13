@@ -44,6 +44,29 @@ $ npm start
 **4. Run application in browser**
   - Navigate to `http://localhost:3000/` and start interacting with the app.
 
+## User Stories
+```
+As a user,
+So that I know what Sean's favourite DJ sets are,
+I want to see them displayed.
+
+As a user,
+So that I can watch a set,
+I want to be able to play the video.
+
+As a user,
+So that I know who I am watching,
+I want see the relevant details of the video.
+
+As a user,
+To identify a song I like,
+I want to be able to see the tracklist for the set.
+
+As a user,
+To play a set that interests me,
+On clicking it, I wish for it to be displayed in the main view.
+```
+
 ## Things To Improve On
 - Allow users to add their own sets
 - TDD

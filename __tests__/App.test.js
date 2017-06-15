@@ -1,16 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from '../src/App';
-import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
+import Header from '../src/components/header';
 
-it('renders without crashing', () => {
+test('renders without crashing', () => {
   const div = document.createElement('div');
   ReactDOM.render(<App />, div);
 });
 
-it('renders App correctly', () => {
-  const tree = renderer.create(
-    <App />
-  ).toJSON();
-  expect(tree).toMatchSnapshot();
+test('renders one Text component', () => {
+  const wrapper = shallow(<App />);
+  expect(wrapper.find(Header).length).toBe(1);
 });

@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the VideoListItem component correctly 1`] = `
+<li
+  className="list-items"
+  onClick={[Function]}
+>
+  <div
+    className="set-list-details"
+  >
+    <div
+      className="details-left"
+    >
+      <img
+        className="thumbnail"
+        src="test"
+      />
+    </div>
+    <div
+      className="details-body"
+    >
+      <div
+        className="details-heading"
+      />
+    </div>
+  </div>
+</li>
+`;

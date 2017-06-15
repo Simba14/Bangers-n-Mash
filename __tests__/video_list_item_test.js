@@ -12,24 +12,25 @@ test('renders the VideoListItem component correctly', () => {
       }
     }
   };
+
   const tree = renderer.create(
     <VideoListItem {...props}/>
   ).toJSON();
-  expect(tree).toMatchSnapshot
+  expect(tree).toMatchSnapshot()
 });
 
-test('renders thumbnail', () => {
-  const props = {
-    video:
-      {
-        default: {
-        url: 'test'
-      }
-    }
-  };
-
-  const wrapper = shallow(<VideoListItem {...props}/>);
-  const image = wrapper.find('img');
-
-  expect(enzymeWrapper.find('h1').text()).toBe('')
-});
+// test('renders thumbnail', () => {
+//   const props = {
+//     video:
+//       {
+//         default: {
+//         url: 'test'
+//       }
+//     }
+//   };
+//
+//   const wrapper = shallow(<VideoListItem {...props}/>);
+//   const image = wrapper.find('img');
+//
+//   const
+// });

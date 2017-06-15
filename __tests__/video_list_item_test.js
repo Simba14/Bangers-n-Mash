@@ -18,19 +18,3 @@ test('renders the VideoListItem component correctly', () => {
   ).toJSON();
   expect(tree).toMatchSnapshot()
 });
-
-// test('renders thumbnail', () => {
-//   const props = {
-//     video:
-//       {
-//         default: {
-//         url: 'test'
-//       }
-//     }
-//   };
-//
-//   const wrapper = shallow(<VideoListItem {...props}/>);
-//   const image = wrapper.find('img');
-//
-//   const
-// });

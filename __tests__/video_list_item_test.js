@@ -3,14 +3,33 @@ import VideoListItem from '../src/components/video_list_item';
 import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
 
-// test('renders the VideoListItem component correctly', () => {
-//   const tree = renderer.create(
-//     <VideoListItem />
-//   ).toJSON();
-//   expect(tree).toMatchSnapshot
-// });
+test('renders the VideoListItem component correctly', () => {
+  const props = {
+    video:
+      {
+        default: {
+        url: 'test'
+      }
+    }
+  };
+  const tree = renderer.create(
+    <VideoListItem {...props}/>
+  ).toJSON();
+  expect(tree).toMatchSnapshot
+});
 
 test('renders thumbnail', () => {
-  const wrapper = shallow(<VideoListItem />);
-  expect(wrapper.find(<img />).length).toBe(1);
+  const props = {
+    video:
+      {
+        default: {
+        url: 'test'
+      }
+    }
+  };
+
+  const wrapper = shallow(<VideoListItem {...props}/>);
+  const image = wrapper.find('img');
+
+  expect(enzymeWrapper.find('h1').text()).toBe('')
 });

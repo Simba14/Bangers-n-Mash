@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders App correctly 1`] = `
+<div
+  className="app"
+>
+  <div
+    className="app-header"
+  >
+    <h1>
+      Boiler Room Picks
+    </h1>
+  </div>
+  <div
+    className="app-body"
+  >
+    <div
+      className="video-display"
+    >
+      <div
+        className="col-md-6 loading-image"
+        id={undefined}
+      >
+        <div
+          style={
+            Object {
+              "animation": "anim_11497540491071 1s 0.1s infinite cubic-bezier(.2,.68,.18,1.08)",
+              "animationFillMode": "both",
+              "backgroundColor": "#26A65B",
+              "borderRadius": "2px",
+              "display": "inline-block",
+              "height": "35px",
+              "margin": "2px",
+              "verticalAlign": undefined,
+              "width": "4px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "animation": "anim_11497540491071 1s 0.2s infinite cubic-bezier(.2,.68,.18,1.08)",
+              "animationFillMode": "both",
+              "backgroundColor": "#26A65B",
+              "borderRadius": "2px",
+              "display": "inline-block",
+              "height": "35px",
+              "margin": "2px",
+              "verticalAlign": undefined,
+              "width": "4px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "animation": "anim_11497540491071 1s 0.30000000000000004s infinite cubic-bezier(.2,.68,.18,1.08)",
+              "animationFillMode": "both",
+              "backgroundColor": "#26A65B",
+              "borderRadius": "2px",
+              "display": "inline-block",
+              "height": "35px",
+              "margin": "2px",
+              "verticalAlign": undefined,
+              "width": "4px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "animation": "anim_11497540491071 1s 0.4s infinite cubic-bezier(.2,.68,.18,1.08)",
+              "animationFillMode": "both",
+              "backgroundColor": "#26A65B",
+              "borderRadius": "2px",
+              "display": "inline-block",
+              "height": "35px",
+              "margin": "2px",
+              "verticalAlign": undefined,
+              "width": "4px",
+            }
+          }
+        />
+        <div
+          style={
+            Object {
+              "animation": "anim_11497540491071 1s 0.5s infinite cubic-bezier(.2,.68,.18,1.08)",
+              "animationFillMode": "both",
+              "backgroundColor": "#26A65B",
+              "borderRadius": "2px",
+              "display": "inline-block",
+              "height": "35px",
+              "margin": "2px",
+              "verticalAlign": undefined,
+              "width": "4px",
+            }
+          }
+        />
+      </div>
+    </div>
+    <div
+      className="video-list"
+    >
+      <ul
+        className="col-md-3 video-list"
+      >
+        <h4
+          className="list-heading"
+        >
+          I Was In The Crowd
+        </h4>
+      </ul>
+    </div>
+    <div
+      className="video-list"
+    >
+      <ul
+        className="col-md-3 video-list"
+      >
+        <h4
+          className="list-heading"
+        >
+          All Time Favourites
+        </h4>
+      </ul>
+    </div>
+  </div>
+</div>
+`;

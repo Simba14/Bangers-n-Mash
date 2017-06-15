@@ -18,6 +18,10 @@ Interact with the application [here](https://bangers-n-mash.herokuapp.com/). Big
 - ReactJS
 - Node.js
 
+Testing:
+- Jest - Core testing framework. Enabled snapshot tests.
+- Enzyme - allows components to be tested with shallow rendering.
+
 In order to access the required data for the videos, I firstly analysed the YouTube API Data call for each set. I then extracted the relevant properties into my own JSON object, which I stored online via http://myjson.com/. This generated a URI, so that the JSON could be accessed directly.
 
 I then make an API call to this URI, which allows me to use the data of the YouTube videos in my application.
@@ -44,6 +48,12 @@ $ npm start
 **4. Run application in browser**
   - Navigate to `http://localhost:3000/` and start interacting with the app.
 
+**5. To Run the tests**
+
+```
+$ npm test
+```
+
 ## User Stories
 ```
 As a user,
@@ -69,4 +79,4 @@ On clicking it, I wish for it to be displayed in the main view.
 
 ## Things To Improve On
 - Allow users to add their own sets
-- TDD
+- I would like to more detailed unit tests that check whether the correct props have been passed from parent to child. 

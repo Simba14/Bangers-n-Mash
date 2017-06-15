@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders the VideoItem component correctly 1`] = `
+<div
+  className="col-md-6 video"
+>
+  <div
+    className="embed-responsive embed-responsive-16by9"
+  >
+    <iframe
+      className="embed-responsive"
+      src="https://www.youtube.com/embed/undefined"
+    />
+  </div>
+  <div
+    className="video-info"
+  >
+    <div
+      className="video-title"
+    />
+    <div />
+    <div
+      className="video-description"
+    />
+    <strong
+      className="tracklist-heading"
+    >
+      Tracklist:
+    </strong>
+    <div
+      className="video-tracklist"
+    />
+  </div>
+</div>
+`;

@@ -79,4 +79,4 @@ On clicking it, I wish for it to be displayed in the main view.
 
 ## Things To Improve On
 - Allow users to add their own sets
-- I would like to more detailed unit tests that check whether the correct props have been passed from parent to child. 
+- I would like to write more detailed unit tests that check whether the correct props have been passed from parent to child. 
